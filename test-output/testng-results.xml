@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T22:28:52Z" name="Default suite" finished-at="2022-07-14T22:28:59Z" duration-ms="6458">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T22:28:52Z" name="Default test" finished-at="2022-07-14T22:28:59Z" duration-ms="6458">
+      <class name="testMainPage.ValidateHeader1">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testMainPage.ValidateHeader1@6581dc0a]" started-at="2022-07-15T01:28:52Z" name="initialize" finished-at="2022-07-15T01:28:58Z" duration-ms="5819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateHeader1()[pri:0, instance:testMainPage.ValidateHeader1@6581dc0a]" started-at="2022-07-15T01:28:58Z" name="validateHeader1" finished-at="2022-07-15T01:28:58Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader1 -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testMainPage.ValidateHeader1@6581dc0a]" started-at="2022-07-15T01:28:58Z" name="driverClose" finished-at="2022-07-15T01:28:59Z" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- testMainPage.ValidateHeader1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

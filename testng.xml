@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test thread-count="5" name="ValidateTitle">
+    <classes>
+      <class name="testMainPage.ValidateTitle"/>
+      </classes>
+  </test>
+  
+   <test thread-count="5" name="ValidateHeader3">
+    <classes>
+      <class name="testMainPage.ValidateHeader3"/>
+      </classes>
+  </test>
+  
+  <test thread-count="5" name="ValidateHeader1">
+    <classes>
+      <class name="testMainPage.ValidateHeader1"/>
+      </classes>
+  </test>
+  
+  <test thread-count="5" name="ValidateNavigationBar">
+    <classes>
+      <class name="testMainPage.ValidateNavigationBar"/>
+      </classes>
+  </test>
+  
+  <test thread-count="5" name="ValidateLearnJavaButton">
+    <classes>
+      <class name="testMainPage.ValidateLearnJavaButton"/>
+      </classes>
+  </test>
+  
+  <test thread-count="5" name="unsuccessfulLoginWithMissingCredentials">
+    <classes>
+      <class name="testsLoginPage.UnsuccessfulLoginWithMissingCredentials"/>
+      </classes>
+  </test>
+  
+   <test thread-count="5" name="ValidateLogo">
+    <classes>
+      <class name="testMainPage.ValidateLogo"/>
+      </classes>
+  </test>
+  
+  <test thread-count="5" name="unsuccessfulLoginWithWrongCredentials">
+    <classes>
+      <class name="testsLoginPage.UnsuccessfulLoginWithWrongCredentials"/>
+      </classes>
+  </test>
+  
+    <test thread-count="5" name="unsuccessfulPaymentWithMissingCredentials">
+    <classes>
+      <class name="testsGetCertPage.UnsuccessfulPaymentWithMissingCredentials"/>
+      </classes>
+  </test>
+  
+   <test thread-count="5" name="javaChaptersTitlesTest">
+    <classes>
+      <class name="testsJavaPage.JavaChaptersTitlesTest"/>
+      </classes>
+  </test>
+  
+  <test thread-count="5" name="ValidateGetCertifiedButton">
+    <classes>
+      <class name="testMainPage.ValidateGetCertifiedButton"/>
+      </classes>
+  </test>
+     
+     
+     
+  
+  <!-- Test -->
+</suite> <!-- Suite -->

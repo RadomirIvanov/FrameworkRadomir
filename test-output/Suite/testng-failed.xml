@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="testsJavaPage.javaChaptersTitlesTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testsJavaPage.javaChaptersTitlesTest -->
+      <class name="testMainPage.ValidateTitle">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testMainPage.ValidateTitle -->
+      <class name="testMainPage.ValidateGetCertifiedButton">
+        <methods>
+          <include name="initialize"/>
+          <include name="driverClose"/>
+          <include name="getCertButtonDisplayed"/>
+        </methods>
+      </class> <!-- testMainPage.ValidateGetCertifiedButton -->
+      <class name="testsGetCertPage.unsuccessfulPaymentWithMissingCredentials">
+        <methods>
+          <include name="initialize"/>
+          <include name="unsuccessfulPaymentMissingCredentials"/>
+        </methods>
+      </class> <!-- testsGetCertPage.unsuccessfulPaymentWithMissingCredentials -->
+      <class name="testMainPage.ValidateHeader3">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateHeader3"/>
+        </methods>
+      </class> <!-- testMainPage.ValidateHeader3 -->
+      <class name="testsLoginPage.unsuccessfulLoginWithWrongCredentials">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateHeader1"/>
+        </methods>
+      </class> <!-- testsLoginPage.unsuccessfulLoginWithWrongCredentials -->
+      <class name="testsLoginPage.unsuccessfulLoginWithMissingCredentials">
+        <methods>
+          <include name="initialize"/>
+          <include name="unsuccessfulLoginWithMissingCredential"/>
+        </methods>
+      </class> <!-- testsLoginPage.unsuccessfulLoginWithMissingCredentials -->
+      <class name="testMainPage.ValidateHeader1">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateHeader1"/>
+          <include name="driverClose"/>
+        </methods>
+      </class> <!-- testMainPage.ValidateHeader1 -->
+      <class name="testMainPage.ValidateLogo">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateLogo"/>
+        </methods>
+      </class> <!-- testMainPage.ValidateLogo -->
+      <class name="testMainPage.ValidateLearnJavaButton">
+        <methods>
+          <include name="initialize"/>
+          <include name="ValidateLearnJavaButtonn"/>
+        </methods>
+      </class> <!-- testMainPage.ValidateLearnJavaButton -->
+      <class name="testMainPage.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateNavigationBar"/>
+        </methods>
+      </class> <!-- testMainPage.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
